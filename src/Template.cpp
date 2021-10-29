@@ -20,7 +20,7 @@ void Template::help(){
 ███████   ████   ██   ██ ███████ ███████                                                          
 )" << '\n';
     cout << "----------------------------------------------" << endl;
-    cout << "usage:\033[1;32m spot \033[0m \033[1;33m[options]\033[0m \033[1;36m(arguments)\033[0m" << endl;
+    cout << "usage:\033[1;32m eval \033[0m \033[1;33m[options]\033[0m \033[1;36m(arguments)\033[0m" << endl;
     cout << "-h  | -H  | help" << endl;
     cout << "-v  | -V  | version" << endl;
     cout << "-c  | -C  | credits" << endl;
@@ -34,7 +34,7 @@ void Template::help(){
 }
 void Template::version(){
     // lmao I totally forgot to update this message
-    cout << "\033[1;32mSpot 1.7.1\033[0m" << endl;
+    cout << "\033[1;32mEval 2\033[0m" << endl;
 }
 void Template::credits(){
     cout << "Made by: Alberto Ocaranza (fevil)" << endl;
