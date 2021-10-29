@@ -1,0 +1,1 @@
+g++ -o run main.cpp src/Eval.cpp src/Tokenizer.cpp src/Builder.cpp src/Commands.cpp src/Template.cpp src/Helpers.cpp
